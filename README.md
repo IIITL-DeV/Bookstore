@@ -53,7 +53,7 @@ The terminal should return your npm version.
 - Write the following command and press enter.
 
 ```
-  $ git clone https://github.com/Bookshlf-in/Website.git
+  $ git clone https://github.com/RohitKumar-200/Bookstore.git
 ```
 
 #### 2. Install node packages
