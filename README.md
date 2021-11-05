@@ -8,16 +8,16 @@
 
 ## Contributors
 
-- Abhishek Singh
+- **Abhishek Singh** (LIT2019008)
   - Frontend Lead, API calling and exception handeling, Testing
-- Sumit Kumar
+- **Sumit Kumar** (LIT2019009)
   - UI/UX design, Skeleton modeling of frontend, Breakdowns testing, basic css support
-- Kushagra Patel
+- **Kushagra Patel** (LCS2019071)
   - React Component handeling, raw html css handeling, resolving warnings
-- Rohit Kumar
+- **Rohit Kumar** (LIT2019037)
   - Backend Lead, Database Creation & handeling, API creation & handeling.
-- Rahul Yadav
-  - API testing with Postman, resolving bugs with API
+- **Rahul Yadav** (LIT2019010)
+  - API testing with Postman, Added express validators in all APIs, and resolved bugs
 
 ## Built With
 
