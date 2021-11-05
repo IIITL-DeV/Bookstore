@@ -3,10 +3,10 @@
   <h1 align="center">Bookstore</h1>
 </p>
 
-### Project for IIIT Lucknow
+## Project for IIIT Lucknow
 #### Online Second Hand book store to buy, sell used books & specially for Competitive Exams.
 
-# Contributors
+## Contributors
 
 - Abhishek Singh
   - Frontend Lead, API calling and exception handeling, Testing
@@ -19,7 +19,7 @@
 - Rahul Yadav
   - API testing with Postman, resolving bugs with API
 
-# Built With
+## Built With
 
 ### Frontend
 - [React](https://reactjs.org)
@@ -78,3 +78,10 @@ $ npm i
 ```
   $ npm run start
 ```
+
+## Links
+
+* [Website URL](https://bookstore-in.web.app/)
+* [Deployed backend](http://bookstore-in.herokuapp.com/)
+* [Github repository](https://github.com/RohitKumar-200/Bookstore)
+* [Database models](https://whimsical.com/database-9wXQGVEwVbm8UMYrUFGQsw)
