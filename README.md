@@ -29,6 +29,7 @@
 ### Backend
 - [MongoDB](https://www.mongodb.com/)
 - [NodeJS](https://nodejs.org/en/)
+- [ExpressJs](https://expressjs.com/)
 - [Postman](https://www.postman.com/)
 
 ## Requirements
@@ -37,7 +38,7 @@ You will need `node` and `npm` installed globally on your machine.
 
 - [Download and Install Nodejs](https://nodejs.org/en/download/)
 
-* Open terminal, write the following command and press enter.
+- Open terminal, write the following command and press enter.
 
 ```
 $ npm -v
@@ -47,37 +48,67 @@ The terminal should return your npm version.
 
 ## How to set up your local environment
 
-#### 1. Clone App
+### Clone App
 
 - Make a new folder and open the terminal there.
 - Write the following command and press enter.
 
 ```
-  $ git clone https://github.com/RohitKumar-200/Bookstore.git
+$ git clone https://github.com/RohitKumar-200/Bookstore.git
+```
+
+### For Frontend
+
+#### 1. Move to Frontend directory
+
+```
+$ cd Frontend
 ```
 
 #### 2. Install node packages
-
-- Move inside the cloned folder.
-- Write the following command and press enter to download all required node modules.
 
 ```
 $ npm install
 ```
 
-or
-
-```
-$ npm i
-```
-
 #### 3. Run Locally
 
-- While you are still inside the cloned folder, write the following command to run the website locally.
+```
+$ npm start
+```
+
+### For Backend
+
+#### 1. Move to Backend directory
 
 ```
-  $ npm run start
+$ cd Backend
 ```
+
+#### 2. create a .env file in Backend directory and add following variables in it
+
+```
+DATABASE=<MongoDB connection string>
+JWT_SECRET=<Any randomly created secret>
+SENDGRID_API_KEY=<Sendgrid API to send e-mails>
+```
+
+#### 3. Install node packages
+
+```
+$ npm install
+```
+
+#### 4. Run Locally
+
+```
+$ npm start
+```
+
+### Some points to consider
+
+- Currently frontend is connected to a api which is hosted in heroku
+- To connect locally hosted backend to frontend, change base API url in frontend to `http://localhost:4000`
 
 ## Links
 
